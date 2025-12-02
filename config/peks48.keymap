@@ -119,10 +119,10 @@
 
         layer_1 {
             bindings = <
-&kp LS(N9)    &kp LS(N8)     &kp UP_ARROW  &kp LS(R)  &kp F1        &kp SLASH           &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &trans
-&kp LC(Z)     &kp LEFT       &kp DOWN      &kp RIGHT  &kp F2        &kp LS(SLASH)       &trans            &kp NUMBER_4      &kp NUMBER_5   &kp NUMBER_6  &kp JP_COLON  &kp JP_UNDERSCORE
-&trans        &kp LS(LC(Z))  &kp F11       &kp F9     &kp KP_COMMA  &kp LS(NUMBER_1)    &kp LS(NUMBER_1)  &kp LS(NUMBER_1)  &kp NUMBER_2   &kp NUMBER_3  &kp PIPE      &trans
-&kp KP_EQUAL  &kp LA(N0)     &kp LC(F11)   &kp F12    &kp F12       &trans              &trans            &kp NUMBER_0      &kp JP_DQUOTE  &trans        &trans        &trans
+&kp LS(N9)    &kp LS(N8)     &kp UP_ARROW  &kp LS(R)  &kp F1        &kp SLASH           &kp SLASH         &kp MINUS         &kp COMMA          &kp PERIOD            &kp LS(NUMBER_0)  &none
+&kp LC(Z)     &kp LEFT       &kp DOWN      &kp RIGHT  &kp F2        &kp LS(SLASH)       &kp LS(SLASH)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp LA(SEMI)      &none
+&trans        &kp LS(LC(Z))  &kp F11       &kp F9     &kp KP_COMMA  &kp LS(NUMBER_1)    &kp LS(NUMBER_1)  &kp LS(NUMBER_1)  &kp LC(F8)         &none                 &kp F8            &trans
+&kp KP_EQUAL  &kp LA(N0)     &kp LC(F11)   &kp F12    &kp F12       &trans              &trans            &none             &none              &kp LC(LEFT_BRACKET)  &kp ENTER         &kp LC(RIGHT_BRACKET)
             >;
         };
 
