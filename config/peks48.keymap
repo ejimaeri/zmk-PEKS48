@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 // Conversion definition for using Japanese keyboard with OS settings
@@ -105,23 +104,9 @@
         };
 
         config {
-            bindings = <&kp LS(LG(KP_COMMA))>;
-            key-positions = <41 40>;
+            bindings = <&kp F12>;
+            key-positions = <41 29>;
             timeout-ms = <50>;
-            layers = <0>;
-        };
-
-        L_layer4 {
-            bindings = <&mo 4>;
-            key-positions = <0 1 2 3>;
-            timeout-ms = <130>;
-            layers = <0>;
-        };
-
-        R_layer4 {
-            bindings = <&mo 4>;
-            key-positions = <11 10 9 8>;
-            timeout-ms = <130>;
             layers = <0>;
         };
     };
@@ -162,15 +147,6 @@
 &kp TAB            &kp PRINTSCREEN  &kp LG(PRINTSCREEN)  &none   &kp F4        &none           &none     &none      &none      &none  &none                 &none
 &none              &none            &none                &none   &kp F7        &kp F5          &none     &none      &none      &none  &kp C_BRIGHTNESS_INC  &none
 &none              &none            &none                &kp F3  &none         &none           &none     &none      &none      &none  &kp C_BRIGHTNESS_DEC  &none
-            >;
-        };
-
-        reset {
-            bindings = <
-&none  &none  &none       &none         &none  &bootloader    &bootloader  &none  &none  &none  &none  &none
-&none  &none  &none       &none         &none  &none          &none        &none  &none  &none  &none  &none
-&none  &none  &bt BT_CLR  &none         &none  &none          &bootloader  &none  &none  &none  &none  &none
-&none  &none  &none       &bt BT_SEL 0
             >;
         };
 
