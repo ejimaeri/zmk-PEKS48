@@ -104,8 +104,8 @@
             layers = <0>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
+        f4 {
+            bindings = <&kp F4>;
             key-positions = <41 40>;
             timeout-ms = <50>;
             layers = <0>;
@@ -123,6 +123,11 @@
             key-positions = <11 10 9 8>;
             timeout-ms = <130>;
             layers = <0>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <41 40 39>;
         };
     };
 
@@ -176,7 +181,7 @@
 
         amari {
             bindings = <
-&kp F3  &kp F4  &none   &none   &none   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&none   &none   &none   &none   &none   &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans
