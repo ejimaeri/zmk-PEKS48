@@ -146,6 +146,27 @@
             timeout-ms = <50>;
             layers = <0>;
         };
+
+        n {
+            bindings = <&kp N>;
+            key-positions = <13 41>;
+            timeout-ms = <50>;
+            layers = <0>;
+        };
+
+        n {
+            bindings = <&kp N>;
+            key-positions = <14 41>;
+            timeout-ms = <50>;
+            layers = <0>;
+        };
+
+        n {
+            bindings = <&kp N>;
+            key-positions = <15 41>;
+            timeout-ms = <50>;
+            layers = <0>;
+        };
     };
 
     keymap {
