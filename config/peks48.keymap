@@ -38,6 +38,8 @@
     tapping-term-ms = <130>;
 };
 
+&lt { tapping-term-ms = <130>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -126,42 +128,42 @@
             layers = <0>;
         };
 
-        n {
+        n1 {
             bindings = <&kp N>;
             key-positions = <40 13>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
-        n {
+        n2 {
             bindings = <&kp N>;
             key-positions = <40 14>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
-        n {
+        n3 {
             bindings = <&kp N>;
             key-positions = <40 15>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
-        n {
+        n4 {
             bindings = <&kp N>;
             key-positions = <13 41>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
-        n {
+        n5 {
             bindings = <&kp N>;
             key-positions = <14 41>;
             timeout-ms = <50>;
             layers = <0>;
         };
 
-        n {
+        n6 {
             bindings = <&kp N>;
             key-positions = <15 41>;
             timeout-ms = <50>;
