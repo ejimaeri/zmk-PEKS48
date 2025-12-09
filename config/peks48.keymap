@@ -158,14 +158,14 @@
 
         fn+J {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <17 16>;
+            key-positions = <17 16 15>;
             timeout-ms = <50>;
             layers = <1>;
         };
 
         o {
             bindings = <&kp O>;
-            key-positions = <17 16 15>;
+            key-positions = <4 5>;
             timeout-ms = <50>;
             layers = <0>;
         };
