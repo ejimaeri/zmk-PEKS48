@@ -121,7 +121,7 @@
             layers = <0>;
         };
 
-        L_click {
+        click {
             bindings = <&mkp LCLK>;
             key-positions = <41 40>;
             timeout-ms = <50>;
