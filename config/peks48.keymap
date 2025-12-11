@@ -109,14 +109,14 @@
         ble {
             bindings = <&mo 4>;
             key-positions = <11 10 9>;
-            timeout-ms = <75>;
+            timeout-ms = <80>;
             layers = <0>;
         };
 
         f12 {
             bindings = <&kp F12>;
             key-positions = <41 40 39>;
-            timeout-ms = <75>;
+            timeout-ms = <80>;
             layers = <0>;
         };
 
