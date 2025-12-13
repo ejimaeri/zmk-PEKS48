@@ -130,7 +130,7 @@
         j {
             bindings = <&kp J>;
             key-positions = <17 16>;
-            timeout-ms = <70>;
+            timeout-ms = <80>;
             layers = <0>;
         };
 
