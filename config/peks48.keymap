@@ -145,13 +145,20 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <17 16 15>;
             layers = <0>;
-            timeout-ms = <60>;
+            timeout-ms = <90>;
         };
 
         n2 {
             bindings = <&kp N>;
             key-positions = <15 41>;
             timeout-ms = <90>;
+            layers = <0>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <5 41>;
+            timeout-ms = <80>;
             layers = <0>;
         };
     };
