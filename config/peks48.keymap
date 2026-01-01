@@ -81,7 +81,7 @@
         caps {
             bindings = <&kp LANG2>;
             key-positions = <8 9>;
-            timeout-ms = <60>;
+            timeout-ms = <50>;
             layers = <0>;
         };
 
