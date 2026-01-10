@@ -123,7 +123,7 @@
         n {
             bindings = <&kp N>;
             key-positions = <40 15>;
-            timeout-ms = <150>;
+            timeout-ms = <80>;
             layers = <0>;
         };
 
