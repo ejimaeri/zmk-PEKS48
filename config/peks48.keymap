@@ -122,8 +122,8 @@
 
         n {
             bindings = <&kp N>;
-            key-positions = <41 12>;
-            timeout-ms = <100>;
+            key-positions = <40 15>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
@@ -157,9 +157,9 @@
 
         tone {
             bindings = <&kp LS(F6)>;
-            key-positions = <41 36>;
+            key-positions = <41 40>;
             layers = <0>;
-            timeout-ms = <80>;
+            timeout-ms = <70>;
         };
     };
 
