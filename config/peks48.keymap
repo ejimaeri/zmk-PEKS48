@@ -145,7 +145,7 @@
         p {
             bindings = <&kp P>;
             key-positions = <5 41>;
-            timeout-ms = <70>;
+            timeout-ms = <90>;
             layers = <0>;
         };
 
