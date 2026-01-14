@@ -110,7 +110,7 @@
         f12 {
             bindings = <&kp F12>;
             key-positions = <41 40 39>;
-            timeout-ms = <80>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
@@ -145,7 +145,7 @@
         p {
             bindings = <&kp P>;
             key-positions = <5 41>;
-            timeout-ms = <85>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
