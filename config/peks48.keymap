@@ -198,10 +198,10 @@
 
         layer_1 {
             bindings = <
-&kp LEFT_PARENTHESIS  &kp ASTRK   &kp UP_ARROW   &kp LS(R)    &kp F1      &kp SLASH       &kp SLASH        &kp MINUS         &kp COMMA          &kp PERIOD            &kp RIGHT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LC(Z)             &kp LEFT    &kp DOWN       &kp RIGHT    &kp F2      &kp QUESTION    &kp QUESTION     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp LA(SEMI)           &none
-&trans                &kp MINUS   &kp LS(LC(Z))  &kp F11      &kp F9      &kp N5          &kp EXCLAMATION  &kp EXCLAMATION   &none              &none                 &kp F8                 &kp LC(LG(SPACE))
-&kp KP_EQUAL          &kp LA(N0)  &kp LC(F11)    &kp LS(F12)  &kp LS(F9)  &trans          &trans           &none             &none              &kp LC(LEFT_BRACKET)  &kp ENTER              &kp LC(RIGHT_BRACKET)
+&kp LEFT_PARENTHESIS  &kp ASTRK   &kp UP_ARROW   &kp LS(R)    &kp F1      &kp LC(I)    &kp SLASH        &kp MINUS         &kp COMMA          &kp PERIOD            &kp RIGHT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LC(Z)             &kp LEFT    &kp DOWN       &kp RIGHT    &kp F2      &kp F10      &kp QUESTION     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp LA(SEMI)           &none
+&trans                &kp MINUS   &kp LS(LC(Z))  &kp F11      &kp F9      &kp N5       &kp EXCLAMATION  &kp EXCLAMATION   &none              &none                 &kp F8                 &kp LC(LG(SPACE))
+&kp KP_EQUAL          &kp LA(N0)  &kp LC(F11)    &kp LS(F12)  &kp LS(F9)  &trans       &trans           &none             &none              &kp LC(LEFT_BRACKET)  &kp ENTER              &kp LC(RIGHT_BRACKET)
             >;
         };
 
@@ -209,8 +209,8 @@
             bindings = <
 &none   &none         &kp AMPERSAND  &kp CARET  &kp PERCENT  &none     &kp SLASH     &kp N7        &kp N8        &kp N9        &kp COLON  &kp COLON
 &none   &none         &none          &none      &kp F4       &none     &kp KP_MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none      &none
-&trans  &none         &none          &none      &none        &none     &kp KP_DOT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &none
-&none   &kp LEFT_ALT  &kp LCTRL      &kp F3     &kp F6       &kp N0    &kp N0        &kp KP_COMMA  &none         &none         &kp ENTER  &none
+&trans  &none         &none          &none      &none        &none     &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &none
+&none   &kp LEFT_ALT  &kp LCTRL      &kp F3     &kp F6       &kp N0    &kp N0        &kp KP_DOT    &kp KP_COMMA  &none         &kp ENTER  &none
             >;
         };
 
