@@ -169,8 +169,8 @@
             timeout-ms = <85>;
         };
 
-        opt+cmd {
-            bindings = <&kp LA(LCTRL)>;
+        shift+opt {
+            bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <14 15>;
             timeout-ms = <90>;
             layers = <0>;
@@ -207,10 +207,10 @@
 
         layer_2 {
             bindings = <
-&none   &none         &kp AMPERSAND  &kp CARET  &kp PERCENT  &none     &kp SLASH     &kp N7        &kp N8        &kp N9        &kp COLON  &kp COLON
-&none   &none         &none          &none      &kp F4       &none     &kp KP_MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none      &none
-&trans  &none         &none          &none      &none        &none     &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &none
-&none   &kp LEFT_ALT  &kp LCTRL      &kp F3     &kp F6       &kp N0    &kp N0        &kp KP_DOT    &kp KP_COMMA  &none         &kp ENTER  &none
+&none   &none         &kp AMPERSAND  &kp CARET  &kp PERCENT  &none     &kp SLASH  &kp N7        &kp N8        &kp N9        &kp COLON  &kp COLON
+&none   &none         &none          &none      &kp F4       &none     &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none      &none
+&trans  &none         &none          &none      &none        &none     &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp LS(EQUAL)
+&none   &kp LEFT_ALT  &kp LCTRL      &kp F3     &kp F6       &kp N0    &kp N0     &kp DOT       &kp COMMA     &none         &kp ENTER  &none
             >;
         };
 
