@@ -162,8 +162,8 @@
             layers = <0>;
         };
 
-        tone {
-            bindings = <&kp LS(F6)>;
+        ctrl {
+            bindings = <&kp LGUI>;
             key-positions = <41 40>;
             layers = <0>;
             timeout-ms = <85>;
