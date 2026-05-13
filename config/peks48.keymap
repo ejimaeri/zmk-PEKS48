@@ -168,6 +168,20 @@
             layers = <0>;
             timeout-ms = <85>;
         };
+
+        opt+cmd {
+            bindings = <&kp LA(LCTRL)>;
+            key-positions = <14 15>;
+            timeout-ms = <90>;
+            layers = <0>;
+        };
+
+        shift+cmd {
+            bindings = <&kp LS(LCTRL)>;
+            key-positions = <13 15 14>;
+            timeout-ms = <90>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -204,7 +218,7 @@
             bindings = <
 &kp DOUBLE_QUOTES  &kp AT                &kp HASH              &none          &kp C_VOL_DN   &kp C_VOL_UP    &kp PIPE  &kp TILDE  &kp GRAVE  &none  &kp C_VOL_DN          &kp C_VOL_UP
 &kp TAB            &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &none          &none          &none           &none     &none      &none      &none  &none                 &none
-&none              &none                 &none                 &none          &kp F7         &kp F5          &none     &none      &none      &none  &kp C_BRIGHTNESS_INC  &none
+&trans             &none                 &none                 &none          &kp F7         &kp F5          &none     &none      &none      &none  &kp C_BRIGHTNESS_INC  &none
 &none              &none                 &none                 &kp LC(LG(S))  &kp LG(SLASH)  &none           &none     &none      &none      &none  &kp C_BRIGHTNESS_DEC  &none
             >;
         };
