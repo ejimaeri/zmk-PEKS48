@@ -169,8 +169,8 @@
             timeout-ms = <85>;
         };
 
-        shift+opt {
-            bindings = <&kp LS(LEFT_ALT)>;
+        cmd+opt {
+            bindings = <&kp LA(LCTRL)>;
             key-positions = <14 15>;
             timeout-ms = <90>;
             layers = <0>;
