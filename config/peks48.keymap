@@ -200,26 +200,26 @@
             bindings = <
 &kp LEFT_PARENTHESIS  &kp ASTRK   &kp UP_ARROW   &kp LS(R)    &kp F1      &kp LC(I)    &kp SLASH        &kp MINUS         &kp COMMA          &kp PERIOD            &kp RIGHT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LC(Z)             &kp LEFT    &kp DOWN       &kp RIGHT    &kp F2      &kp F10      &kp QUESTION     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &kp LA(SEMI)           &none
-&trans                &kp MINUS   &kp LS(LC(Z))  &kp F11      &kp F9      &kp N5       &kp EXCLAMATION  &kp EXCLAMATION   &none              &none                 &kp F8                 &kp LC(LG(SPACE))
-&kp KP_EQUAL          &kp LA(N0)  &kp LC(F11)    &kp LS(F12)  &kp LS(F9)  &trans       &trans           &none             &none              &kp LC(LEFT_BRACKET)  &kp ENTER              &kp LC(RIGHT_BRACKET)
+&trans                &kp MINUS   &kp LS(LC(Z))  &kp F11      &kp F9      &kp F8       &kp EXCLAMATION  &kp EXCLAMATION   &none              &none                 &none                  &kp LC(LG(SPACE))
+&kp KP_EQUAL          &kp LA(N0)  &kp LC(F11)    &kp LS(F12)  &kp LS(F9)  &trans       &trans           &none             &none              &kp LC(LEFT_BRACKET)  &none                  &kp LC(RIGHT_BRACKET)
             >;
         };
 
         layer_2 {
             bindings = <
-&none   &none         &kp AMPERSAND  &kp CARET  &kp PERCENT  &none     &kp SLASH  &kp N7        &kp N8        &kp N9        &kp COLON  &kp COLON
-&none   &none         &none          &none      &kp F4       &none     &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none      &none
-&trans  &none         &none          &none      &none        &none     &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp LS(EQUAL)
-&none   &kp LEFT_ALT  &kp LCTRL      &kp F3     &kp F6       &kp N0    &kp N0     &kp DOT       &kp COMMA     &none         &kp ENTER  &none
+&none   &none         &kp AMPERSAND  &kp CARET  &kp PERCENT  &none      &kp SLASH  &kp N7        &kp N8        &kp N9        &kp COLON  &kp COLON
+&none   &none         &none          &none      &kp F4       &none      &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none      &none
+&trans  &none         &none          &none      &none        &none      &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp LS(EQUAL)
+&none   &kp LEFT_ALT  &kp LCTRL      &kp F3     &kp F6       &kp F12    &kp N0     &kp DOT       &kp COMMA     &none         &kp ENTER  &kp EQUAL
             >;
         };
 
         layer_3 {
             bindings = <
-&kp DOUBLE_QUOTES  &kp AT                &kp HASH              &none          &kp C_VOL_DN   &kp C_VOL_UP    &kp PIPE  &kp TILDE  &kp GRAVE  &none  &kp C_VOL_DN          &kp C_VOL_UP
-&kp TAB            &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &none          &none          &none           &none     &none      &none      &none  &none                 &none
-&trans             &none                 &none                 &none          &kp F7         &kp F5          &none     &none      &none      &none  &kp C_BRIGHTNESS_INC  &kp LC(LG(SPACE))
-&none              &none                 &none                 &kp LC(LG(S))  &kp LG(SLASH)  &none           &none     &none      &none      &none  &kp C_BRIGHTNESS_DEC  &none
+&kp DOUBLE_QUOTES  &kp AT                &kp HASH              &none  &kp C_VOL_DN  &kp C_VOL_UP    &kp PIPE  &kp TILDE  &kp GRAVE  &none  &kp C_VOL_DN          &kp C_VOL_UP
+&kp TAB            &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))  &none  &none         &none           &none     &none      &none      &none  &none                 &none
+&trans             &none                 &none                 &none  &kp F7        &kp F5          &none     &none      &none      &none  &kp C_BRIGHTNESS_INC  &kp LC(LG(SPACE))
+&none              &none                 &none                 &none  &none         &none           &none     &none      &none      &none  &kp C_BRIGHTNESS_DEC  &none
             >;
         };
 
@@ -228,7 +228,7 @@
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none  &none  &none  &none  &none  &none
 &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none
 &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &bt BT_CLR
-&none         &none         &none         &kp F10
+&none         &none         &none         &none
             >;
         };
     };
