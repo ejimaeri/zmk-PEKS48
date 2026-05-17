@@ -207,10 +207,10 @@
 
         layer_2 {
             bindings = <
-&none   &none         &kp AMPERSAND  &kp CARET  &kp PERCENT  &none      &kp SLASH  &kp N7        &kp N8        &kp N9        &kp COLON  &kp COLON
-&none   &none         &none          &none      &kp F4       &none      &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none      &none
-&trans  &none         &none          &none      &none        &none      &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp LS(EQUAL)
-&none   &kp LEFT_ALT  &kp LCTRL      &kp F3     &kp F6       &kp F12    &kp N0     &kp DOT       &kp COMMA     &none         &kp ENTER  &kp EQUAL
+&kp AMPERSAND  &none         &none      &kp CARET  &kp PERCENT  &none      &kp SLASH  &kp N7        &kp N8        &kp N9        &kp COLON  &kp COLON
+&none          &none         &none      &none      &kp F4       &none      &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none      &none
+&trans         &none         &none      &none      &none        &none      &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &kp LS(EQUAL)
+&bootloader    &kp LEFT_ALT  &kp LCTRL  &kp F3     &kp F6       &kp F12    &kp N0     &kp DOT       &kp COMMA     &none         &kp ENTER  &kp EQUAL
             >;
         };
 
@@ -225,9 +225,9 @@
 
         ble {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none  &none  &none  &none  &none  &none
-&none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none
-&none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &bt BT_CLR
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none    &none        &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none    &none        &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none    &bootloader  &none  &none  &none  &none  &bt BT_CLR
 &none         &none         &none         &none
             >;
         };
