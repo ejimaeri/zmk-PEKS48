@@ -114,7 +114,7 @@
         };
 
         f12 {
-            bindings = <&kp F12>;
+            bindings = <&kp LC(F12)>;
             key-positions = <41 40 39>;
             timeout-ms = <80>;
             layers = <0>;
