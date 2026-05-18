@@ -81,7 +81,7 @@
         caps {
             bindings = <&kp LANG2>;
             key-positions = <8 9>;
-            timeout-ms = <60>;
+            timeout-ms = <40>;
             layers = <0>;
         };
 
@@ -163,15 +163,8 @@
         };
 
         cmd+opt {
-            bindings = <&kp F>;
+            bindings = <&kp M>;
             key-positions = <14 15>;
-            timeout-ms = <90>;
-            layers = <0>;
-        };
-
-        shift+cmd {
-            bindings = <&kp LS(LCTRL)>;
-            key-positions = <13 15 14>;
             timeout-ms = <90>;
             layers = <0>;
         };
@@ -182,10 +175,10 @@
 
         default_layer {
             bindings = <
-&kp ESC     &kp W         &kp E             &kp R  &kp T      &kp Y          &kp Y        &kp U     &kp I    &kp O           &kp P           &kp PAGE_UP
-&kp A       &kp S         &kp LALT          &kp F  &kp G      &kp H          &kp H        &kp J     &kp K    &kp L           &kp EQUAL       &kp PAGE_DOWN
-&kp LSHIFT  &kp U         &kp X             &kp C  &kp V      &kp B          &kp N        &kp N     &kp M    &kp F12         &kp UP_ARROW    &kp RIGHT_SHIFT
-&mo 3       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp M  &kp SPACE  &lt 1 ENTER    &lt 1 ENTER  &kp HOME  &kp END  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp ESC     &kp W         &kp E             &kp R     &kp T      &kp Y          &kp Y        &kp U     &kp I    &kp O           &kp P           &kp PAGE_UP
+&kp A       &kp S         &kp D             &kp F     &kp G      &kp H          &kp H        &kp J     &kp K    &kp L           &kp EQUAL       &kp PAGE_DOWN
+&kp LSHIFT  &kp U         &kp X             &kp C     &kp V      &kp B          &kp N        &kp N     &kp M    &kp F12         &kp UP_ARROW    &kp RIGHT_SHIFT
+&mo 3       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LALT  &kp SPACE  &lt 1 ENTER    &lt 1 ENTER  &kp HOME  &kp END  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
